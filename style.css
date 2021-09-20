@@ -1,0 +1,33 @@
+div{
+    background-color:#e7e3e3;
+    height: 30vh;
+    width: 12em;
+}
+h4{
+    text-align: center;
+}
+div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+}
+#dados{
+    display: flex;
+    justify-content: space-between;
+}
+#main{
+    text-align: center;
+    margin-top: 3em;
+}
+input{
+    padding: 1em;
+
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding: .6em;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body"> 
+           <section id="main"> 
+           <input type="text" name="city" id="input" placeholder="Qual cidade ?"></input>
+           <button onclick="GetApi()">Procurar</button>
+            <h1 id="cityName"></h1>
+            <h3 id="status"></h3>
+            <img  id="img-status" src="" width="200px">
+          
+           </section>
+           <setion id="dados">
+      
+           <div>
+            <h4 id="graus"></h4>
+            <img src="./imagens/frio.jpg" alt="" width="100px">
+           </div>
+           <div >
+             <h4 id="humidade"></h4>
+             <img src="./imagens/humidade.jpg" width="100px">
+           </div>
+           <div>
+             <h4 id="vento"></h4>
+             <img src="./imagens/vento.jpg" alt="" width="100px">
+           </div>
+           <div>
+             <h4 id="nascer"></h4>
+             <img src="./imagens/sunrise.jpg" alt="" width="100px">
+           </div>
+           <div>
+           <h4 id="por"></h4>
+           <img src="./imagens/sunset.jpg" alt="" width="100px">
+           </div>
+           </setion>
+          
+    <script src="index.js"></script>
+</body>
+</html>
